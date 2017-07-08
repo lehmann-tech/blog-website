@@ -6,14 +6,12 @@ import Content from './content';
 import classes from './main.css';
 
 const Main = () => (
-  <div className={classes.container}>
-    <Sidebar />
-    <BrowserRouter>
-      <div>
-        <Route path="/" component={Content} />
-      </div>
-    </BrowserRouter>
-  </div>
+  <BrowserRouter>
+    <div className={classes.container}>
+      <Sidebar />
+      <Route path="/" component={Content} />
+    </div>
+  </BrowserRouter>
 );
 
 export default Main;
