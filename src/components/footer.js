@@ -1,10 +1,10 @@
 import React from 'react';
-import './footer.css';
+import classes from './footer.css';
 
 const Footer = () => (
   <div>
     <hr />
-    <p>
+    <p className={classes.copyrightText}>
       Copyright © 2017 Lehmann Tech
     </p>
   </div>
