@@ -1,8 +1,9 @@
 import React from 'react';
-import classes from './sidebar.css';
+import classes from './expanded-sidebar.css';
 
-const Sidebar = () => (
+const ExpandedSidebar = ({collapse}) => (
   <div className={classes.container}>
+    <button onClick={collapse}>≡</button>
     <ul>
       <li className={classes.links}>
         <a href="#">link 1</a>
@@ -16,4 +17,4 @@ const Sidebar = () => (
   </div>
 );
 
-export default Sidebar;
+export default ExpandedSidebar;
