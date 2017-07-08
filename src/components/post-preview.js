@@ -4,7 +4,9 @@ import classes from './post-preview.css';
 const PostPreview = ({ title, body }) => (
   <div>
     <h3 className={classes.title}>{title}</h3>
-    <p className={classes.body}>{body.substring(0, 300)}…</p>
+    <p className={classes.body}>{body.substring(0, 300)}
+      <span className={classes.cutoff}>…</span>
+    </p>
   </div>
 );
 

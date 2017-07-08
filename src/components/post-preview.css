@@ -4,3 +4,8 @@
 
 :local(.body) {
 }
+
+:local(.cutoff) {
+    opacity: 0.5;
+}
+
