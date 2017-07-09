@@ -2,15 +2,12 @@ import React from 'react';
 import { Redirect } from 'react-router-dom';
 
 import posts from '../sample-data/posts';
-import PostPreview from './post-preview';
 import Post from './post';
 
-const PostPage = ({ match }) => {
-  const postId = Number(match.params.id);
+const PostPage = ({ match: { params: { id } } } ) => {
+  const postId = Number(id);
 
   const post = posts.find(post => post.id === postId);
-
-  console.log(posts);
 
   if (post == null) {
     return (
@@ -18,11 +15,7 @@ const PostPage = ({ match }) => {
     );
   }
 
-  return (
-    <div>
-      <Post {...post} />
-    </div>
-  );
+  return <Post {...post} />;
 };
 
 export default PostPage;
