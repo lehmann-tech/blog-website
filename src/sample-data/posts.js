@@ -2,6 +2,8 @@ export default [
   {
     id: 0,
     title: 'Hello, world',
+    author: 'theneva',
+    date: Date.now(),
     body: `In eget ligula metus. Praesent tincidunt, metus quis feugiat hendrerit, augue leo dignissim mauris, sit amet pretium orci purus ut lacus. Nullam eget pulvinar dui. Nunc blandit, libero vel maximus commodo, nisi lectus auctor quam, in bibendum nisi erat sit amet elit. Sed quam dui, varius sit amet urna et, vulputate maximus libero. Nulla euismod magna nibh, feugiat suscipit nisl consectetur ac. Sed vitae aliquam nulla, eu feugiat sapien.
 
 Proin in odio porttitor, scelerisque risus ut, suscipit arcu. Nam eget nisl ipsum. Phasellus placerat tincidunt mollis. Integer tincidunt tempor risus, et rhoncus risus. Donec est turpis, feugiat eget nulla vitae, lacinia feugiat ante. Sed molestie neque quis mattis fermentum. Morbi ut est nunc. Morbi in dictum massa. Nulla scelerisque tempus orci, id porta tellus lobortis ac. Nam ac urna finibus, iaculis dolor convallis, tempus nisi. Maecenas sed faucibus ipsum, sed vehicula augue. Donec dapibus lobortis tortor, eget egestas ipsum convallis non. Suspendisse maximus massa sed magna bibendum semper. Nulla facilisi.
@@ -13,6 +15,8 @@ In vitae arcu porta, iaculis purus porttitor, semper mauris. Donec quis nisl var
   {
     id: 1,
     title: 'This is my second post',
+    author: 'theneva',
+    date: Date.now(),
     body: `Nunc non justo libero. Nam vel tincidunt tortor. Curabitur rhoncus nulla ut diam aliquam consequat. Donec pulvinar, ligula sit amet hendrerit interdum, nibh magna fringilla massa, aliquam congue dolor odio non est. Maecenas vitae consectetur felis. Suspendisse consequat at odio id bibendum. Donec varius purus vitae nibh dapibus, ac fringilla ante porta. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ac est dolor. Proin condimentum condimentum arcu sed eleifend. Nulla in risus felis. Donec vitae placerat ex. Morbi a pellentesque lacus. Nam vel magna ut sapien sollicitudin tempor. Donec malesuada dolor vitae fermentum pretium.
 
 Praesent a tristique dolor. Fusce ac urna ante. In luctus ipsum leo, non elementum libero porttitor et. Suspendisse potenti. Sed aliquet tempus turpis, sed consectetur dolor molestie ut. Nulla condimentum a risus ac tristique. Proin viverra lorem et dignissim ultrices. Praesent sed consequat nulla. Fusce egestas, odio vitae lobortis posuere, ipsum odio interdum turpis, at posuere ante elit sed nulla. Morbi dolor orci, convallis in neque vitae, feugiat volutpat mauris. Aliquam nisl nulla, laoreet quis fringilla sed, semper vitae elit. In finibus ipsum id arcu condimentum, a luctus sapien cursus. Integer placerat at magna elementum varius. Nunc interdum, urna nec hendrerit tristique, nisi risus vulputate dolor, vel molestie nunc ligula eu metus.
